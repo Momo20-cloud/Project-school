@@ -1,0 +1,43 @@
+*{
+    background-color: white;
+    color:black;
+    text-align: center;
+}
+.header{
+    text-align: center;
+    color: black;
+
+    
+}
+.formulaire{
+    text-align: center;
+    margin: auto;
+}
+#nom{
+    padding: 15px;
+    margin: auto;
+    width: 300px;
+}
+#prenom{
+    padding: 15px;
+    margin: auto;
+    width: 300px;
+
+}
+#date{
+    padding: 15px;
+    margin: auto;
+
+}
+#statut{
+    padding: 15px;
+    margin: auto;
+    width: 300px;
+
+}
+#genre{
+    padding: 15px;
+    margin: auto;
+    width: 300px;
+
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire de contact</title>
+</head>
+<body>
+<div class="header">
+    <h1>
+        Contactez nous
+    </h1>
+    <h2>
+        <div id="verification" >
+            
+        </div>
+    </h2>
+</div>
+<div class="message">
+</div>
+<div class="formulaire">
+    <div id="nom">
+        <input type="text" name="nom" maxlength="50" id="nom" placeholder="Entrer votre nom" >
+    </div>
+    <div id="prenom">
+        <input type="text" name="prenom" maxlength="50" id="prenom" placeholder="Entrer votre prenom" >
+    </div>
+   <input type="date" name="date" id="date" > 
+   <div class="genre">
+       <select name="genre" id="genre">
+       <option value="0">Civilité</option>
+       <option value="1">Homme</option>
+       <option value="2">Femme</option>
+   </select></div>
+   <div id="tel">
+       <input type="num" name="tel" placeholder="0102030405" maxlength="10">
+   </div><br>
+   Etes vous Handicaper ?
+   <div class="statut">
+       <select name="statut" id="statut">
+           <option value="0">Selectionnez</option>
+           <option value="1">Oui</option>
+           <option value="2">Non</option>
+       </select>
+   </div>
+<div class="valide">
+    <button type="button" id="soumettre">Soumettre
+    </button>
+</div>
+</div>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+
+    <script src="formulaire.js">
+    </script>
+</body>
+</html>
